@@ -14,6 +14,10 @@ public:
 		cout << "Masukan nomor: ";
 		cin >> num;
 		cout << endl;
-
+		//cek antrian penuh
+		if ((FRONT == 0 && REAR == Max - 1) || (FRONT == REAR - 1)) {
+			cout << "\nQueue penuh";
+			return;
+		}
 	}
 };
