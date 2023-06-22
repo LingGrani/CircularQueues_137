@@ -51,7 +51,8 @@ public:
 			//jika element ada di posisi terakhir
 			if (FRONT == Max - 1)
 				FRONT = 0;
-
+			else
+				FRONT = FRONT + 1;
 		}
 	}
 };
