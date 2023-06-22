@@ -40,5 +40,12 @@ public:
 			cout << "\nQueue kosong";
 			return;
 		}
+		cout << "\nElement yang didelete dari antrian: " << queue_arr[FRONT] << "\n";
+
+		//cek antrian hanya satu element
+		if (FRONT == REAR) {
+			FRONT = -1;
+			REAR = -1;
+		}
 	}
 };
