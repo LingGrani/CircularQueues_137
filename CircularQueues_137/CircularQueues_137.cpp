@@ -31,5 +31,6 @@ public:
 			else
 				REAR = REAR + 1;
 		}
+		queue_arr[REAR] = num;
 	}
 };
