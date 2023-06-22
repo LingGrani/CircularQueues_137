@@ -71,8 +71,17 @@ public:
 		/*jika Front_position <= Rear_position, iterasi dari front hingga rear*/
 		if (Front_position <= Rear_position) {
 			while (Front_position <= Rear_position) {
-				cout << queue_arr[Front_position] << " ";
+				cout << queue_arr[Front_position] << "  ";
 				Front_position++;
+			}
+			cout << endl;
+		}
+		else {
+		/*jika Front_position > Rear_position, iterasi dari front hingga akhir array*/
+			while (Front_position <= Max - 1) {
+				cout << queue_arr[Front_position] << "  ";
+				Front_position++;
+			}
 			}
 		}
 	}
