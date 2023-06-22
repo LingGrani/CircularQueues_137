@@ -59,5 +59,11 @@ public:
 	void display() {
 		int Front_position = FRONT;
 		int Rear_position = REAR;
+
+		//cek antrian kosong
+		if (FRONT == -1) {
+			cout << "\nQueue kosong";
+			return;
+		}
 	}
 };
