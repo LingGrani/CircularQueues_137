@@ -19,5 +19,9 @@ public:
 			cout << "\nQueue penuh";
 			return;
 		}
+		//cek antrian kosong
+		if (FRONT == -1 && REAR == -1) {
+
+		}
 	}
 };
