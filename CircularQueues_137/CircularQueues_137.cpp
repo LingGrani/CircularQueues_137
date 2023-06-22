@@ -82,6 +82,8 @@ public:
 				cout << queue_arr[Front_position] << "  ";
 				Front_position++;
 			}
+			Front_position = 0;
+
 			}
 		}
 	}
