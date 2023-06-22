@@ -65,5 +65,15 @@ public:
 			cout << "\nQueue kosong";
 			return;
 		}
+
+		cout << "\nElement di dalam Queue adalah...\n";
+		
+		/*jika Front_position <= Rear_position, iterasi dari front hingga rear*/
+		if (Front_position <= Rear_position) {
+			while (Front_position <= Rear_position) {
+				cout << queue_arr[Front_position] << " ";
+				Front_position++;
+			}
+		}
 	}
 };
