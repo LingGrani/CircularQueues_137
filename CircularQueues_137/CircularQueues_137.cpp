@@ -35,6 +35,10 @@ public:
 	}
 
 	void remove() {
-		
+		//cek apakah antrian ksosong
+		if (FRONT == -1) {
+			cout << "\nQueue kosong";
+			return;
+		}
 	}
 };
