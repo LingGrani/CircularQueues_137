@@ -47,5 +47,11 @@ public:
 			FRONT = -1;
 			REAR = -1;
 		}
+		else {
+			//jika element ada di posisi terakhir
+			if (FRONT == Max - 1)
+				FRONT = 0;
+
+		}
 	}
 };
